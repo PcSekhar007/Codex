@@ -75,7 +75,7 @@ const handleSubmit =async (e) => {
   if(response.ok){
     
 
-    const data = await response.json();   //console.log({data})
+    const data = await response.json();   
 
     const parsedData = data.bot.trim();    
     typeText(messageDiv, parsedData);
